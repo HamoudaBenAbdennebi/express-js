@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  background-color: #262626;
+  position: fixed;
+}
+nav .logo img {
+  height: 70%;
+}
+.logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: #aaaaaa;
+}
+nav div {
+  display: flex;
+  align-items: center;
+}
+nav div a {
+  margin: 0 5px;
+  color: white;
+  text-decoration: none;
+}
+nav div a:hover {
+  color: aqua;
+}
+.error-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.error-page img {
+  max-width: 400px;
+  width: 100%;
+}
+
+.cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.281);
+}
+.cont h2 {
+  color: aqua;
+  font-size: 40px;
+}
+.cont form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.cont form * {
+  width: 400px;
+  height: 20px;
+  padding: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 2px 0;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+.cont form *:focus {
+  border-color: aqua;
+}
+.cont form textarea {
+  height: 60px;
+}
+.cont form button {
+  width: 414px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid aqua;
+  color: white;
+  background-color: aqua;
+  height: 30px;
+}
+::placeholder {
+  color: white;
+}
+.contact-body {
+  background-image: url("https://www.gridam.com/wp-content/uploads/2020/05/photo-1498050108023-c5249f4df085.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+textarea:focus::placeholder,
+input:focus::placeholder {
+  color: aqua;
+}
+.ip12 {
+  background-image: url("./res/bg-iphone12.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  color: white;
+  letter-spacing: 2px;
+  display: flex;
+}
+.ip12 .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+}
+.ip12 .text h2 {
+  font-size: 30px;
+  color: #aaa;
+}
+.ip12 .text h3 {
+  font-size: 36px;
+  color: #ddd;
+  margin: 10px 0;
+}
+.watch {
+  min-height: 100vh;
+  background-color: rgb(27, 27, 27);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.watch img {
+  height: 350px;
+}
+.watch h2 {
+  color: #aaa;
+  font-size: 30px;
+}
+.watch h3 {
+  color: #ddd;
+  font-size: 36px;
+}
+.airpods {
+  background-color: black;
+  min-height: 90.3vh;
+  display: flex;
+  color: white;
+  text-align: center;
+}
+.airpods .imgg {
+  display: flex;
+  align-items: flex-end;
+  height: 90.3vh;
+}
+.airpods .imgg img {
+  height: 50vh;
+}
+.textAir {
+  padding: 25px 0;
+}
+.textAir h2 {
+  font-size: 34px;
+}
+.textAir h3 {
+  font-size: 36px;
+  padding: 20px 0;
+}
+.textAir a {
+  background-color: rgba(0, 100, 231, 0.822);
+  color: white;
+  padding: 10px 70px;
+  margin-top: 65px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+.textAir a:hover {
+  background-color: rgba(0, 100, 231, 1);
+}
+.buyNow {
+  background-color: rgba(0, 100, 231, 0.822);
+  color: white;
+  padding: 10px 70px;
+  margin-top: 65px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+.buyNow:hover {
+  background-color: rgba(0, 100, 231, 1);
+}
+.card {
+  background-color: #c9c9c9;
+  color: white;
+}
+.card img {
+  width: 400px;
+}
+.card-body {
+  background-color: #252525;
+}
